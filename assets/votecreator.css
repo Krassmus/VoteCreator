@@ -1,0 +1,13 @@
+.votecreator {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../../assets/images/icons/32/blue/add/vote.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    float: right;
+    visibility: hidden;
+}
+.printcontent ul:hover .votecreator {
+    visibility: visible;
+}
