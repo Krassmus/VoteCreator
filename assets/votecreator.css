@@ -6,8 +6,4 @@
     background-size: 100% 100%;
     background-position: center center;
     float: right;
-    visibility: hidden;
-}
-.printcontent ul:hover .votecreator {
-    visibility: visible;
 }
