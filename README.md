@@ -1,4 +1,4 @@
-VoteCreator
+![logo](https://raw.githubusercontent.com/Krassmus/VoteCreator/master/assets/votecreator_logo.png) VoteCreator
 ===========
 
 Stud.IP-plugin: creates votes from lists in a wiki page.
@@ -11,3 +11,5 @@ This works quite simple:
 
 Now you can edit the options, set the duration of the voting and start the voting. After you started the voting you are redirected back to the wiki-page you just saw. 
 Sadly you won't see any success-message, but that is something this plugin can't provide.
+
+![screenshot](https://raw.githubusercontent.com/Krassmus/VoteCreator/master/assets/votecreator_screenshot.png)
