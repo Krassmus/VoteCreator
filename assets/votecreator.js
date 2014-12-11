@@ -23,7 +23,7 @@ STUDIP.VoteCreator = {
 };
 
 jQuery(function () {
-    jQuery(".printcontent ul").prepend(jQuery("<div class='votecreator' title='Neue Umfrage aus dieser Liste generieren.'></div>"));
+    jQuery(".printcontent ul").before(jQuery("<div class='votecreator' title='Neue Umfrage aus dieser Liste generieren.'></div>"));
     jQuery(".votecreator").bind("click", function () {
         var cid = location.href.match(/cid=(\w{32})/)[1];
         var options = jQuery.map(jQuery(this).closest("ul").children("li"), function (li) { return jQuery(li).html(); });
